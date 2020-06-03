@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+	  <children>
+      <Button fx:id="btn" alignment="CENTER" contentDisplay="CENTER" layoutX="139.0" layoutY="324.0" mnemonicParsing="false" onAction="#LogIn" prefHeight="25.0" prefWidth="122.0" text="LogIn" textFill="#11032c" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="un" alignment="CENTER" layoutX="88.0" layoutY="144.0" promptText="UserName">
+         <cursor>
+            <Cursor fx:constant="S_RESIZE" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pw" alignment="CENTER" layoutX="88.0" layoutY="223.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="st" alignment="CENTER" layoutX="54.0" layoutY="59.0" prefHeight="34.0" prefWidth="218.0" text="Status" textFill="#2215da">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
+

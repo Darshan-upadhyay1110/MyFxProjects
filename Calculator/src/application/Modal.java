@@ -1,0 +1,27 @@
+package application;
+
+public class Modal {
+	public float getValue(long a,long b,String st)
+	{
+		switch(st)
+		{
+		case "*":
+			return a*b;
+		case "/":
+			if(b==0)
+			{
+				return -1;
+			}
+			return a/b;
+		case "+":
+			return a+b;
+		case "-":
+			return a-b;
+		default:
+			return 0;
+		
+		}
+		
+	}
+
+}

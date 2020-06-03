@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btn{
+	-fx-font-weight: bold;
+}
+#lb{
+	-fx-fill: #000000;
+	-fx-background-color: #ffffff;
+	-fx-text-fill: #da70d6;
+}
